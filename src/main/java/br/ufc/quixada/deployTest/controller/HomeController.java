@@ -12,7 +12,7 @@ public class HomeController {
         return "index.html";
     }
 
-    @GetMapping("/ola")
+    @GetMapping("/olaa")
     public String ola(){
         return "ola.html";
     }
