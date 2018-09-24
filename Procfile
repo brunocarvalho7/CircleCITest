@@ -1,1 +1,1 @@
-web: java -jar -Dserver.port=$PORT deployTest.war
+web: java -jar target/dependency/webapp-runner.jar --session-store memcache target/deployTest.war
