@@ -1,1 +1,1 @@
-web: java -jar target/dependency/webapp-runner.jar --session-store memcache target/deployTest.war
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
